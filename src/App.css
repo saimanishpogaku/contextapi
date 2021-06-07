@@ -1,5 +1,21 @@
 .App {
-  text-align: center;
+  margin:auto;
+  width:80%;
+}
+
+.hide-element {
+  display:none;
+}
+
+.cardview {
+  background-color: rgb(243, 217, 104);
+  color:white;
+  padding: 2% 2%;
+  width:90%;
+  height:auto;
+  margin-top:10px;
+  list-style-type: none;
+  border-radius: 5px;
 }
 
 .App-logo {
@@ -15,7 +31,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
