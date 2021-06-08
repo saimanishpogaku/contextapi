@@ -105,6 +105,7 @@ class Posts extends Component {
 
         return (
             <div className="row" >
+                <h1 style={{ textAlign: "center", width: "100%" }}>Posts view</h1>
                 { postItems}
             </div >
         )
